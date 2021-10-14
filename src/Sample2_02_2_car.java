@@ -26,10 +26,10 @@ class Sample2_02_2_car {
 		this();                    //コンストラクタ①（引数なし）の起動
 		System.out.println("　　▼コンストラクタ②（引数あり）-------------------------") ;
 		this.carModel = carModel ;  //車種名
-		owner         = owner    ;  //オーナー
-		color         = color    ;  //塗装色
-		speed         = speed    ;  //現在の速度
-		right         = right    ;  //ライト（true:点灯/false:消灯）
+		this.owner = owner    ;  //オーナー
+		this.color = color    ;  //塗装色
+		this.speed = speed    ;  //現在の速度
+		this.right = right    ;  //ライト（true:点灯/false:消灯）
 		System.out.println("　　▲-----------------------------------------------------") ;
 	}
 	
