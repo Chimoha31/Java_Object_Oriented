@@ -41,6 +41,5 @@ class Sample2_01_1_drive {
 		System.out.println("<chocoCar>") ;
 		System.out.println("chocoCar.speed  ：" + chocoCar.speed   ) ;
 		
-		
 	}
 }
